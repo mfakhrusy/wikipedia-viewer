@@ -65,7 +65,7 @@ $(document).ready(function() {
 		});
 	});
 
-	let value;
+	let value = 0;
 	$("#search-query").keyup(function(e) {
     // 13 is the code for Enter key.
     // it will run if the enter is pressed
@@ -153,7 +153,7 @@ $(document).ready(function() {
 
             $("#" + id + " > a").append("<div>" + "</div>");
             $("#" + id + " > a div")
-              .append("<span><strong>" +
+              .append("<h2><strong>" +
               wikiInfo['title'] +
               "</strong></span>");
 
